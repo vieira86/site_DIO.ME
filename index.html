@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação das Principais Tags HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+        }
+        section {
+            margin-top: 60px;
+        }
+        h2 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        footer {
+            margin-top: 80px;
+            text-align: center;
+            font-size: 14px;
+            color: #555555;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Entenda as Principais Tags HTML</h1>
+    
+    <label for="navegacao">Ir para:</label>
+    <select id="navegacao" onchange="location.href=this.value">
+        <option value="">Selecione uma tag</option>
+        <option value="#html">`&lt;html&gt;`</option>
+        <option value="#head">`&lt;head&gt;`</option>
+        <option value="#body">`&lt;body&gt;`</option>
+        <option value="#title">`&lt;title&gt;`</option>
+        <option value="#meta">`&lt;meta&gt;`</option>
+        <option value="#h1">`&lt;h1&gt;`</option>
+        <option value="#p">`&lt;p&gt;`</option>
+        <option value="#a">`&lt;a&gt;`</option>
+        <option value="#referencias">Referência</option>
+    </select>
+
+    <section id="html">
+        <h2>&lt;html&gt;</h2>
+        <p>Define o início e o fim de um documento HTML. É o elemento raiz de qualquer página HTML.</p>
+    </section>
+
+    <section id="head">
+        <h2>&lt;head&gt;</h2>
+        <p>Contém informações sobre o documento, como metadados, título, links para estilos e scripts.</p>
+    </section>
+
+    <section id="body">
+        <h2>&lt;body&gt;</h2>
+        <p>Contém todo o conteúdo visível da página, como textos, imagens, links, tabelas etc.</p>
+    </section>
+
+    <section id="title">
+        <h2>&lt;title&gt;</h2>
+        <p>Define o título da página exibido na aba do navegador.</p>
+    </section>
+
+    <section id="meta">
+        <h2>&lt;meta&gt;</h2>
+        <p>Fornece metadados como codificação de caracteres e configurações de visualização responsiva.</p>
+    </section>
+
+    <section id="h1">
+        <h2>&lt;h1&gt;</h2>
+        <p>Define um título de nível 1. Existem também `h2` até `h6` para subtítulos hierárquicos.</p>
+    </section>
+
+    <section id="p">
+        <h2>&lt;p&gt;</h2>
+        <p>Define um parágrafo de texto.</p>
+    </section>
+
+    <section id="a">
+        <h2>&lt;a&gt;</h2>
+        <p>Cria um hiperlink para outra página ou recurso.</p>
+    </section>
+
+    <section id="referencias">
+        <h2>Referência</h2>
+        <p>
+            Todas as explicações sobre as tags HTML foram baseadas na documentação oficial do 
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+                MDN Web Docs
+            </a>, mantido pela Mozilla e nas aulas do Prof. Diogo.
+        </p>
+    </section>
+
+    <footer>
+        Site desenvolvido por Rafael Vieira, aluno do curso da <strong>DIO.ME</strong><br>
+        <a href="https://github.com/vieira86" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+    </footer>
+
+
+
+</body>
+</html>
